@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Encriptador de Texto</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital@0;1&family=Orbitron&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="./assets/css/reset.css">
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+
+</head>
+
+<body>
+  <script src="./assets/js/script.js"></script>
+  <main>
+    <h1>Encriptador</h1>
+
+    <section class="caixa-texto">
+      <div class="item">
+        <textarea placeholder="Digite aqui apenas letras minusculas e sem acento" id="texto-entrada" cols="30" rows="10" class="input-padrao"></textarea>
+      </div>
+
+      <div class="item">
+        <textarea name="" placeholder="Seu texto aparece aqui" id="texto-saida" cols="30" rows="10" class="input-padrao"></textarea>
+        <button class="copiar" onclick="copiarTexto()">Copiar</button>
+      </div>
+    </section>
+
+    <section>
+      <div class="botoes">
+        <button class="encriptar" onclick="encrypt()">Criptografar</button>
+        <button class="encriptar" onclick="descript()">Descriptografar</button>
+      </div>
+    </section>
+
+    <footer>
+      <div>
+        <h2>Desenvolvido por <strong>Kaleb Damaceno</strong> atraves do curso da Oracle One + Alura</h2>
+      </div>
+    </footer>
+  </main>
+</body>
+
+</html>
